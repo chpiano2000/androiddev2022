@@ -7,7 +7,7 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3484375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_weather.xml" value="0.16236068895643363" />
-        <entry key="app/src/main/res/layout/fragment_forecast.xml" value="0.19746376811594202" />
+        <entry key="app/src/main/res/layout/fragment_forecast.xml" value="0.1" />
       </map>
     </option>
   </component>
