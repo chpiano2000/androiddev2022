@@ -16,6 +16,11 @@
 <!--        android:layout_height="wrap_content"-->
 <!--        android:id="@+id/forecast_frag"/>-->
 
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab"/>
+
     <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
