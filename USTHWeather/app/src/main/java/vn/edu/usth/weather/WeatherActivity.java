@@ -7,8 +7,6 @@ import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.google.android.material.tabs.TabLayout;
-
 public class WeatherActivity extends AppCompatActivity {
 
     @Override
@@ -20,14 +18,9 @@ public class WeatherActivity extends AppCompatActivity {
 //        ForecastFragment secondFragment = new ForecastFragment();
 //        getSupportFragmentManager().beginTransaction().add(R.id.forecast_frag,secondFragment).commit();
 
-        // Link Fragments
         PagerAdapter adapter = new HomePagerAdapter(getSupportFragmentManager());
         ViewPager pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(adapter);
-
-        // Link Tab layout
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab);
-        tabLayout.setupWithViewPager(pager);
     }
     @Override
     protected void onStart(){
