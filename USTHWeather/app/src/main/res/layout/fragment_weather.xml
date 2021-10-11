@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/weather_frag"
     android:layout_width="match_parent"
     android:layout_marginTop="75px"
     android:layout_marginRight="75px"
